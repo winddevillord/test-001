@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func submitButton(_ sender: UIButton) {
+        // test..
         textLabel.text = inputTextField.text
         inputTextField.text = ""
         inputTextField.resignFirstResponder()
